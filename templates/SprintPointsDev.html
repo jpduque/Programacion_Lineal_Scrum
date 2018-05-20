@@ -1,24 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Puntos de entrega en el proyecto Desarrollo</title>
-</head>
-<body>
+{% extends "bootstrap/base.html" %}
+{% block head %}
+<meta charset="UTF-8">
+<title>Personas en el Equipo de Desarrollo</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<div>Puntos de entrega en el proyecto Desarrollo</div>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
+      integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 
-<form method="post">
-    <p>Puntos entregados por Desarrollador Senior</p>
-    <input name="PDsenior" type="number" min="0" required/>
-    <p>Puntos entregados por Desarrollador Tecnico</p>
-    <input name="PDstandard" type="number" min="0" required/>
-    <p>Puntos entregados por Desarrollador Junior</p>
-    <input name="PDjunior" type="number" min="0" required/>
-    <p>Puntos entregados por Desarrollador Pasante</p>
-    <input name="PDintern" type="number" min="0" required/>
-    <br>
-    <input type="submit" value="Siguiente">
-</form>
-</body>
+<title>Starter Template for Bootstrap</title>
+{% endblock %}
+{% block body %}
+{% block content %}
+<div class="container">
+    <div class="py-5 text-center">
+        <h2>Puntos entregados por del Equipo de Desarrollo</h2>
+        <p class="lead">En esta seccion se debe asignar la cantidad de puntos que entregaran los desarrolladores por sprint</p>
+    </div>
+
+    <div class="row">
+        <div class="col-md-8 order-md-1">
+            <form class="needs-validation" method="post">
+                <label for="PDsenior">Puntos entregados por Desarrollador Senior</label>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Puntos</span>
+                    </div>
+                    <input name ="PDsenior" id="PDsenior" type="number" class="form-control" placeholder="" min=0 required>
+                    <div class="invalid-feedback">
+                        Campo Obligatorio
+                    </div>
+                </div>
+
+                <label for="PDstandard">Puntos entregados por Desarrollador Tecnico</label>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Puntos</span>
+                    </div>
+                    <input id="PDstandard" name="PDstandard" type="number" class="form-control" placeholder="" min=0 required>
+                    <div class="invalid-feedback">
+                        Campo Obligatorio
+                    </div>
+                </div>
+
+                <label for="PDjunior">Puntos entregados por Desarrollador Junior</label>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Puntos</span>
+                    </div>
+                    <input id="PDjunior" name="PDjunior" type="number" class="form-control" placeholder="" min=0 required>
+                    <div class="invalid-feedback">
+                        Campo Obligatorio
+                    </div>
+                </div>
+
+                <label for="PDintern">Puntos entregados por Desarrollador Pasante</label>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Puntos</span>
+                    </div>
+                    <input id="PDintern" name="PDintern" type="number" class="form-control" placeholder="" min=0 required>
+                    <div class="invalid-feedback">
+                        Campo Obligatorio
+                    </div>
+                </div>
+
+                <button class="btn btn-primary btn-lg btn-block" type="submit">Siguiente Paso</button>
+            </form>
+        </div>
+    </div>
+
+    <footer class="my-5 pt-5 text-muted text-center text-small">
+        <p class="mb-1">&copy; 2017-2018 Company Name</p>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="#">Privacy</a></li>
+            <li class="list-inline-item"><a href="#">Terms</a></li>
+            <li class="list-inline-item"><a href="#">Support</a></li>
+        </ul>
+    </footer>
+</div>
+{% endblock %}
+{% endblock %}
+{% block scripts %}
+<script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function () {
+        'use strict';
+
+        window.addEventListener('load', function () {
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.getElementsByClassName('needs-validation');
+
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function (form) {
+                form.addEventListener('submit', function (event) {
+                    if (form.checkValidity() === false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
+        }, false);
+    })();
+</script>
+{% endblock %}
 </html>

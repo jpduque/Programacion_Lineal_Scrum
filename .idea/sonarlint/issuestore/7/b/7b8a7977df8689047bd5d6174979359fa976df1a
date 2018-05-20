@@ -1,0 +1,21 @@
+
+wpython:S117"[Rename this parameter "juniorQADeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(û„Â¸8‹™¶¶,
+wpython:S117"[Rename this parameter "internQADeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(û„Â¸8‹™¶¶,
+upython:S117"YRename this parameter "projectBudget" to match the regular expression ^[_a-z][a-z0-9_]*$.(û„Â¸8‹™¶¶,
+xpython:S117"\Rename this parameter "juniorDevDeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(û„Â¸8‹™¶¶,
+gpython:S107"KFunction "model" has 19 parameters, which is greater than the 7 authorized.(û„Â¸8‹™¶¶,
+tpython:S117"XRename this parameter "internQACost" to match the regular expression ^[_a-z][a-z0-9_]*$.(û„Â¸8‹™¶¶,
+tpython:S117"XRename this parameter "juniorQACost" to match the regular expression ^[_a-z][a-z0-9_]*$.(û„Â¸8‹™¶¶,
+wpython:S117"[Rename this parameter "seniorQADeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(û„Â¸8‹™¶¶,
+vpython:S117"ZRename this parameter "techDevDeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(û„Â¸8‹™¶¶,
+upython:S117"YRename this parameter "techQADeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(û„Â¸8‹™¶¶,
+upython:S117"YRename this parameter "seniorDevCost" to match the regular expression ^[_a-z][a-z0-9_]*$.(û„Â¸8‹™¶¶,
+tpython:S117"XRename this parameter "seniorQACost" to match the regular expression ^[_a-z][a-z0-9_]*$.(û„Â¸8‹™¶¶,
+xpython:S117"\Rename this parameter "internDevDeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(û„Â¸8‹™¶¶,
+upython:S117"YRename this parameter "projectPoints" to match the regular expression ^[_a-z][a-z0-9_]*$.(û„Â¸8‹™¶¶,
+xpython:S117"\Rename this parameter "seniorDevDeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(û„Â¸8‹™¶¶,
+rpython:S117"VRename this parameter "techQACost" to match the regular expression ^[_a-z][a-z0-9_]*$.(û„Â¸8‹™¶¶,
+tpython:S117"XRename this parameter "sprintPoints" to match the regular expression ^[_a-z][a-z0-9_]*$.(û„Â¸8‹™¶¶,
+upython:S117"YRename this parameter "juniorDevCost" to match the regular expression ^[_a-z][a-z0-9_]*$.(û„Â¸8‹™¶¶,
+spython:S117"WRename this parameter "techDevCost" to match the regular expression ^[_a-z][a-z0-9_]*$.(û„Â¸8‹™¶¶,
+upython:S117"YRename this parameter "internDevCost" to match the regular expression ^[_a-z][a-z0-9_]*$.(û„Â¸8‹™¶¶,

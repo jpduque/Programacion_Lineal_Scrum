@@ -1,7 +1,12 @@
 from flask import Flask, request, render_template, redirect, url_for
 import optimization
+from flask_bootstrap import Bootstrap
+from flask_wtf import FlaskForm
+from wtforms import StringField
+from wtforms.validators import DataRequired
 
 app = Flask(__name__)
+Bootstrap(app)
 
 seniorDevCost = ''
 techDevCost = ''
@@ -131,11 +136,19 @@ def project_optimal():
                        seniorQADeliver, techQADeliver, juniorQADeliver, internQADeliver, sprintPoints, projectPoints,
                        projectBudget)
 
-    return render_template('Optimal.html', x1=round(optimization.x1.value[0]), x2=round(optimization.x2.value[0]),
+    # return render_template('Optimal.html')
+    return render_template('Optimal.html', seniorDevCost=seniorDevCost, techDevCost=techDevCost,
+                           juniorDevCost=juniorDevCost, internDevCost=internDevCost, seniorQACost=seniorQACost,
+                           techQACost=techQACost, juniorQACost=juniorQACost, internQACost=internQACost,
+                           seniorDevDeliver=seniorDevDeliver, techDevDeliver=techDevDeliver,
+                           juniorDevDeliver=juniorDevDeliver, internDevDeliver=internDevDeliver,
+                           seniorQADeliver=seniorQADeliver, techQADeliver=techQADeliver,
+                           juniorQADeliver=juniorQADeliver, internQADeliver=internQADeliver,
+                           x1=round(optimization.x1.value[0]), x2=round(optimization.x2.value[0]),
                            x3=round(optimization.x3.value[0]), x4=round(optimization.x4.value[0]),
                            x5=round(optimization.x5.value[0]), x6=round(optimization.x6.value[0]),
                            x7=round(optimization.x7.value[0]), x8=round(optimization.x8.value[0]),
-                           sprints=round(int(projectPoints)/int(sprintPoints)))
+                           sprints=round(int(projectPoints) / int(sprintPoints)))
 
 
 if __name__ == '__main__':

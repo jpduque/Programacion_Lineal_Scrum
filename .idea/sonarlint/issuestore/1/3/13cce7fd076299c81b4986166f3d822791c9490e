@@ -1,0 +1,20 @@
+
+ypython:S117"]Rename this local variable "internQACost" to match the regular expression ^[_a-z][a-z0-9_]*$.(³¥´å8Ïë«¶,
+xpython:S117"\Rename this local variable "techDevCost" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÄïŒò8¿›æ«¶,
+‚python:S117"aRename this local variable "juniorDevDeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(°ı—ıÿÿÿÿ8×°î«¶,
+zpython:S117"^Rename this local variable "techQADeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(ßƒçØ8Á˜ñ«¶,
+zpython:S117"^Rename this local variable "projectPoints" to match the regular expression ^[_a-z][a-z0-9_]*$.(û©²–8–Ìö«¶,
+zpython:S117"^Rename this local variable "projectBudget" to match the regular expression ^[_a-z][a-z0-9_]*$.(‚ìÒû8³ÚÑ°¶,
+python:S117"^Rename this local variable "internDevCost" to match the regular expression ^[_a-z][a-z0-9_]*$.(ëÿ”¤ûÿÿÿÿ8Ü¨ç«¶,
+~python:S117"]Rename this local variable "sprintPoints" to match the regular expression ^[_a-z][a-z0-9_]*$.(˜—“¤ùÿÿÿÿ8İñõ«¶,
+python:S117"`Rename this local variable "juniorQADeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ç¸×ùÿÿÿÿ8Å³ñ«¶,
+python:S117"^Rename this local variable "seniorDevCost" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ù´‘úÿÿÿÿ8Üâ†¯¶,
+zpython:S117"^Rename this local variable "juniorDevCost" to match the regular expression ^[_a-z][a-z0-9_]*$.(íÙú÷8Ü¨ç«¶,
+|python:S117"[Rename this local variable "techQACost" to match the regular expression ^[_a-z][a-z0-9_]*$.(Œå©áÿÿÿÿÿ8´ë«¶,
+python:S117"`Rename this local variable "seniorQADeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ì½¬Ğøÿÿÿÿ8…ìğ«¶,
+|python:S117"`Rename this local variable "internQADeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(²¨«ø8ùïñ«¶,
+ypython:S117"]Rename this local variable "juniorQACost" to match the regular expression ^[_a-z][a-z0-9_]*$.(ŸŞÉ©8´ë«¶,
+~python:S117"]Rename this local variable "seniorQACost" to match the regular expression ^[_a-z][a-z0-9_]*$.(ô†Şúøÿÿÿÿ8´ë«¶,
+}python:S117"aRename this local variable "internDevDeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ç×ç8›Åî«¶,
+}python:S117"aRename this local variable "seniorDevDeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(—»™ı8Şòí«¶,
+{python:S117"_Rename this local variable "techDevDeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(«Š‘¿8×°î«¶,

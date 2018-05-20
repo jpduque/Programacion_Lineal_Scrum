@@ -17,7 +17,7 @@ def model(seniorDevCost,techDevCost, juniorDevCost, internDevCost, seniorQACost,
     global x5
     global x6
     global x7
-    global x8f
+    global x8
     c1 = (int(seniorDevDeliver)*x1 + int(techDevDeliver)*x2 + int(juniorDevDeliver)*x3 + int(internDevDeliver)*x4 + int(seniorQADeliver)*x5 + int(techQADeliver)*x6 + int(juniorQADeliver)*x7 + int(internQADeliver)*x8 >= int(sprintPoints))
     c2 = ((int(seniorDevDeliver)*x1 + int(techDevDeliver)*x2 + int(juniorDevDeliver)*x3 + int(internDevDeliver)*x4 + int(seniorQADeliver)*x5 + int(techQADeliver)*x6 + int(juniorQADeliver)*x7 + int(internQADeliver)*x8)/int(sprintPoints) <= int(projectPoints))
     c3 = (x1 + x2 + x3 + x4 >= 1)

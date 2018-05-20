@@ -1,24 +1,135 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+    <!--<meta charset="UTF-8">-->
+    <!--<title>Puntos de entrega en el proyecto Calidad</title>-->
+<!--</head>-->
+<!--<body>-->
+
+<!--<div>Puntos de entrega en el proyecto Calidad</div>-->
+
+<!--<form method="post">-->
+    <!--<p>Puntos entregados por Tester Senior</p>-->
+    <!--<input name="PQsenior" type="number" min="0" required/>-->
+    <!--<p>Puntos entregados por Tester Tecnico</p>-->
+    <!--<input name="PQstandard" type="number" min="0" required/>-->
+    <!--<p>Puntos entregados por Tester Junior</p>-->
+    <!--<input name="PQjunior" type="number" min="0" required/>-->
+    <!--<p>Puntos entregados por Tester Pasante</p>-->
+    <!--<input name="PQintern" type="number" min="0" required/>-->
+    <!--<br>-->
+    <!--<input type="submit" value="Siguiente">-->
+<!--</form>-->
+<!--</body>-->
+<!--</html>-->
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Puntos de entrega en el proyecto Calidad</title>
-</head>
-<body>
+{% extends "bootstrap/base.html" %}
+{% block head %}
+<meta charset="UTF-8">
+<title>Personas en el Equipo de Desarrollo</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<div>Puntos de entrega en el proyecto Calidad</div>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
+      integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 
-<form method="post">
-    <p>Puntos entregados por Tester Senior</p>
-    <input name="PQsenior" type="number" min="0" required/>
-    <p>Puntos entregados por Tester Tecnico</p>
-    <input name="PQstandard" type="number" min="0" required/>
-    <p>Puntos entregados por Tester Junior</p>
-    <input name="PQjunior" type="number" min="0" required/>
-    <p>Puntos entregados por Tester Pasante</p>
-    <input name="PQintern" type="number" min="0" required/>
-    <br>
-    <input type="submit" value="Siguiente">
-</form>
-</body>
+<title>Starter Template for Bootstrap</title>
+{% endblock %}
+{% block body %}
+{% block content %}
+<div class="container">
+    <div class="py-5 text-center">
+        <h2>Puntos entregados por del Equipo de Calidad</h2>
+        <p class="lead">En esta seccion se debe asignar la cantidad de puntos que entregaran los testers por sprint</p>
+    </div>
+
+    <div class="row">
+        <div class="col-md-8 order-md-1">
+            <form class="needs-validation" method="post">
+                <label for="PQsenior">Puntos entregados por tester Senior</label>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Puntos</span>
+                    </div>
+                    <input name ="PQsenior" id="PQsenior" type="number" class="form-control" placeholder="" min=0 required>
+                    <div class="invalid-feedback">
+                        Campo Obligatorio
+                    </div>
+                </div>
+
+                <label for="PQstandard">Puntos entregados por tester Tecnico</label>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Puntos</span>
+                    </div>
+                    <input id="PQstandard" name="PQstandard" type="number" class="form-control" placeholder="" min=0 required>
+                    <div class="invalid-feedback">
+                        Campo Obligatorio
+                    </div>
+                </div>
+
+                <label for="PQjunior">Puntos entregados por tester Junior</label>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Puntos</span>
+                    </div>
+                    <input id="PQjunior" name="PQjunior" type="number" class="form-control" placeholder="" min=0 required>
+                    <div class="invalid-feedback">
+                        Campo Obligatorio
+                    </div>
+                </div>
+
+                <label for="PQintern">Puntos entregados por tester Pasante</label>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Puntos</span>
+                    </div>
+                    <input id="PQintern" name="PQintern" type="number" class="form-control" placeholder="" min=0 required>
+                    <div class="invalid-feedback">
+                        Campo Obligatorio
+                    </div>
+                </div>
+
+                <button class="btn btn-primary btn-lg btn-block" type="submit">Siguiente Paso</button>
+            </form>
+        </div>
+    </div>
+
+    <footer class="my-5 pt-5 text-muted text-center text-small">
+        <p class="mb-1">&copy; 2017-2018 Company Name</p>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="#">Privacy</a></li>
+            <li class="list-inline-item"><a href="#">Terms</a></li>
+            <li class="list-inline-item"><a href="#">Support</a></li>
+        </ul>
+    </footer>
+</div>
+{% endblock %}
+{% endblock %}
+{% block scripts %}
+<script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function () {
+        'use strict';
+
+        window.addEventListener('load', function () {
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.getElementsByClassName('needs-validation');
+
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function (form) {
+                form.addEventListener('submit', function (event) {
+                    if (form.checkValidity() === false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
+        }, false);
+    })();
+</script>
+{% endblock %}
 </html>
