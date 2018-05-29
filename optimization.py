@@ -49,12 +49,3 @@ class opt:
                 seniorQACost) * x5 + int(techQACost) * x6 + int(juniorQACost) * x7 + int(internQACost) * x8,
             [c1, c2, c3, c4, c5, c6, c7, c8, c9, c10, c11, c12, c13, c14])
         lp1.solve('glpk')
-        print('\nEstado: {}'.format(lp1.status))
-        print('Óptimo x1: {}'.format(round(x1.value[0])))
-        print('Óptimo x2: {}'.format(round(x2.value[0])))
-        print('Óptimo x3: {}'.format(round(x3.value[0])))
-        print('Óptimo x4: {}'.format(round(x4.value[0])))
-        print('Óptimo x5: {}'.format(round(x5.value[0])))
-        print('Óptimo x6: {}'.format(round(x6.value[0])))
-        print('Óptimo x7: {}'.format(round(x7.value[0])))
-        print('Óptimo x8: {}'.format(round(x8.value[0])))

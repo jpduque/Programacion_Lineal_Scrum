@@ -4,7 +4,7 @@
 {% block head %}
 <meta charset="UTF-8">
 <title>Personas en el Equipo de Desarrollo</title>
-<meta charset="utf-8">
+<meta charset="utf-8" onLoad="noBack();" onpageshow="if (event.persisted) noBack();" onUnload="">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <!-- Bootstrap core CSS -->
@@ -20,6 +20,11 @@
 {% endblock %}
 {% block body %}
 {% block content %}
+<nav class="navbar navbar-dark bg-dark">
+    <form class="form-inline">
+        <button class="btn btn-outline-success" type="button" onclick="window.location='/';">Inicio</button>
+    </form>
+</nav>
 <div class="container">
     <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
         <h1 class="display-4">Optimo Encontrado</h1>
@@ -40,7 +45,7 @@
                     </h1>
                     <ul class="list-unstyled mt-3 mb-4">
                         <li>{{seniorDevDeliver}} Puntos por Sprint</li>
-                        <li>{{seniorDevCost}} /Sprint</li>
+                        <li>${{seniorDevCost}} /Sprint</li>
                     </ul>
                 </div>
             </div>
@@ -54,7 +59,7 @@
                     </h1>
                     <ul class="list-unstyled mt-3 mb-4">
                         <li>{{techDevDeliver}} Puntos por Sprint</li>
-                        <li>{{techDevCost}} /Sprint</li>
+                        <li>${{techDevCost}} /Sprint</li>
                     </ul>
                 </div>
             </div>
@@ -68,7 +73,7 @@
                     </h1>
                     <ul class="list-unstyled mt-3 mb-4">
                         <li>{{juniorDevDeliver}} Puntos por Sprint</li>
-                        <li>{{juniorDevCost}} /Sprint</li>
+                        <li>${{juniorDevCost}} /Sprint</li>
                     </ul>
                 </div>
             </div>
@@ -82,7 +87,7 @@
                     </h1>
                     <ul class="list-unstyled mt-3 mb-4">
                         <li>{{internDevDeliver}} Puntos por Sprint</li>
-                        <li>{{internDevCost}} /Sprint</li>
+                        <li>${{internDevCost}} /Sprint</li>
                     </ul>
                 </div>
             </div>
@@ -98,7 +103,7 @@
                     </h1>
                     <ul class="list-unstyled mt-3 mb-4">
                         <li>{{seniorQADeliver}} Puntos por Sprint</li>
-                        <li>{{seniorQACost}} /Sprint</li>
+                        <li>${{seniorQACost}} /Sprint</li>
                     </ul>
                 </div>
             </div>
@@ -112,7 +117,7 @@
                     </h1>
                     <ul class="list-unstyled mt-3 mb-4">
                         <li>{{techQADeliver}} Puntos por Sprint</li>
-                        <li>{{techQACost}} /Sprint</li>
+                        <li>${{techQACost}} /Sprint</li>
                     </ul>
                 </div>
             </div>
@@ -126,7 +131,7 @@
                     </h1>
                     <ul class="list-unstyled mt-3 mb-4">
                         <li>{{juniorQADeliver}} Puntos por Sprint</li>
-                        <li>{{juniorQACost}} /Sprint</li>
+                        <li>${{juniorQACost}} /Sprint</li>
                     </ul>
                 </div>
             </div>
@@ -140,7 +145,7 @@
                     </h1>
                     <ul class="list-unstyled mt-3 mb-4">
                         <li>{{internQADeliver}} Puntos por Sprint</li>
-                        <li>{{internQACost}} /Sprint</li>
+                        <li>${{internQACost}} /Sprint</li>
                     </ul>
                 </div>
             </div>
@@ -169,6 +174,13 @@
         fg: '#eceeef',
         text: 'Thumbnail'
     });
+</script>
+<script>
+    window.history.forward();
+    function noBack()
+    {
+        window.history.forward();
+    }
 </script>
 {% endblock %}
 </html>

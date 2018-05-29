@@ -1,21 +1,41 @@
 
+zpython:S117"^Rename this local variable "projectBudget" to match the regular expression ^[_a-z][a-z0-9_]*$.(‚ìÒû8ØÓ°É·,
+upython:S116"TRename this field "seniorQACost" to match the regular expression ^[_a-z][_a-z0-9]*$.(»¬÷˜ÿÿÿÿÿ8¨Œ¡¸,
+tpython:S116"XRename this field "internDevDeliver" to match the regular expression ^[_a-z][_a-z0-9]*$.(Š ˜ª8¨Œ¡¸,
+ppython:S116"TRename this field "sprintPoints" to match the regular expression ^[_a-z][_a-z0-9]*$.(•ÑğÜ8¨Œ¡¸,
+ppython:S116"URename this field "internDevCost" to match the regular expression ^[_a-z][_a-z0-9]*$.(Œ¬–O8¨Œ¡¸,
+spython:S116"WRename this field "seniorQADeliver" to match the regular expression ^[_a-z][_a-z0-9]*$.(ˆ‚ãª8¨Œ¡¸,
+zpython:S117"^Rename this local variable "juniorDevCost" to match the regular expression ^[_a-z][a-z0-9_]*$.(íÙú÷8ğ—¸ù·,
+qpython:S116"URename this field "juniorDevCost" to match the regular expression ^[_a-z][_a-z0-9]*$.(“åç´8¨Œ¡¸,
+}python:S117"aRename this local variable "seniorDevDeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(—»™ı8ØÓ°É·,
+|python:S117"[Rename this local variable "techQACost" to match the regular expression ^[_a-z][a-z0-9_]*$.(Œå©áÿÿÿÿÿ8ØÓ°É·,
+python:S117"^Rename this local variable "seniorDevCost" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ù´‘úÿÿÿÿ8×Û¶ù·,
+ypython:S117"]Rename this local variable "internQACost" to match the regular expression ^[_a-z][a-z0-9_]*$.(³¥´å8ØÓ°É·,
+rpython:S116"WRename this field "juniorQADeliver" to match the regular expression ^[_a-z][_a-z0-9]*$.(©ÕŞ=8¨Œ¡¸,
+spython:S116"WRename this field "internQADeliver" to match the regular expression ^[_a-z][_a-z0-9]*$.(¦ ùï8¨Œ¡¸,
+~python:S117"]Rename this local variable "sprintPoints" to match the regular expression ^[_a-z][a-z0-9_]*$.(˜—“¤ùÿÿÿÿ8ØÓ°É·,
+|python:S117"`Rename this local variable "internQADeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(²¨«ø8ØÓ°É·,
+vpython:S116"URename this field "projectPoints" to match the regular expression ^[_a-z][_a-z0-9]*$.(½ †ôÿÿÿÿÿ8¨Œ¡¸,
+wpython:S116"VRename this field "techDevDeliver" to match the regular expression ^[_a-z][_a-z0-9]*$.(ã£¢èøÿÿÿÿ8¨Œ¡¸,
+upython:S116"TRename this field "internQACost" to match the regular expression ^[_a-z][_a-z0-9]*$.(³ÜåÑúÿÿÿÿ8¨Œ¡¸,
+‚python:S117"aRename this local variable "juniorDevDeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(°ı—ıÿÿÿÿ8ØÓ°É·,
+4python:S1700"Rename field "app"(«…‡ÿûÿÿÿÿ8ëÓ¢ ¸,
+ypython:S117"]Rename this local variable "juniorQACost" to match the regular expression ^[_a-z][a-z0-9_]*$.(ŸŞÉ©8ØÓ°É·,
+zpython:S117"^Rename this local variable "techQADeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(ßƒçØ8ØÓ°É·,
+python:S117"`Rename this local variable "juniorQADeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ç¸×ùÿÿÿÿ8ØÓ°É·,
+python:S117"^Rename this local variable "internDevCost" to match the regular expression ^[_a-z][a-z0-9_]*$.(ëÿ”¤ûÿÿÿÿ8ğ—¸ù·,
+vpython:S116"URename this field "seniorDevCost" to match the regular expression ^[_a-z][_a-z0-9]*$.(´Óš¾şÿÿÿÿ8¨Œ¡¸,
+tpython:S116"XRename this field "seniorDevDeliver" to match the regular expression ^[_a-z][_a-z0-9]*$.(“Ùîü8¨Œ¡¸,
+ypython:S116"XRename this field "juniorDevDeliver" to match the regular expression ^[_a-z][_a-z0-9]*$.(‘Á—ùÿÿÿÿ8¨Œ¡¸,
+ipython:S101"HRename class "app" to match the regular expression ^[A-Z_][a-zA-Z0-9]+$.(šÍİœøÿÿÿÿ8ëÓ¢ ¸,
+tpython:S116"SRename this field "techDevCost" to match the regular expression ^[_a-z][_a-z0-9]*$.(©¢Ğğûÿÿÿÿ8¨Œ¡¸,
+vpython:S116"URename this field "projectBudget" to match the regular expression ^[_a-z][_a-z0-9]*$.(‘’‚îıÿÿÿÿ8¨Œ¡¸,
+python:S117"`Rename this local variable "seniorQADeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ì½¬Ğøÿÿÿÿ8ØÓ°É·,
 }python:S117"aRename this local variable "internDevDeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ç×ç8ØÓ°É·,
 ~python:S117"]Rename this local variable "seniorQACost" to match the regular expression ^[_a-z][a-z0-9_]*$.(ô†Şúøÿÿÿÿ8ØÓ°É·,
-zpython:S117"^Rename this local variable "juniorDevCost" to match the regular expression ^[_a-z][a-z0-9_]*$.(íÙú÷8ğ—¸ù·,
-|python:S117"`Rename this local variable "internQADeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(²¨«ø8ØÓ°É·,
+opython:S116"TRename this field "juniorQACost" to match the regular expression ^[_a-z][_a-z0-9]*$.(êùˆ/8¨Œ¡¸,
 {python:S117"_Rename this local variable "techDevDeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(«Š‘¿8ØÓ°É·,
-;python:S125"Remove this commented out code.(îÈŸ8éË«û·,
-zpython:S117"^Rename this local variable "projectPoints" to match the regular expression ^[_a-z][a-z0-9_]*$.(û©²–8ØÓ°É·,
-python:S117"^Rename this local variable "internDevCost" to match the regular expression ^[_a-z][a-z0-9_]*$.(ëÿ”¤ûÿÿÿÿ8ğ—¸ù·,
-python:S117"^Rename this local variable "seniorDevCost" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ù´‘úÿÿÿÿ8×Û¶ù·,
-|python:S117"[Rename this local variable "techQACost" to match the regular expression ^[_a-z][a-z0-9_]*$.(Œå©áÿÿÿÿÿ8ØÓ°É·,
-ypython:S117"]Rename this local variable "juniorQACost" to match the regular expression ^[_a-z][a-z0-9_]*$.(ŸŞÉ©8ØÓ°É·,
-ypython:S117"]Rename this local variable "internQACost" to match the regular expression ^[_a-z][a-z0-9_]*$.(³¥´å8ØÓ°É·,
-}python:S117"aRename this local variable "seniorDevDeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(—»™ı8ØÓ°É·,
-‚python:S117"aRename this local variable "juniorDevDeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(°ı—ıÿÿÿÿ8ØÓ°É·,
-python:S117"`Rename this local variable "seniorQADeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ì½¬Ğøÿÿÿÿ8ØÓ°É·,
-zpython:S117"^Rename this local variable "techQADeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(ßƒçØ8ØÓ°É·,
-~python:S117"]Rename this local variable "sprintPoints" to match the regular expression ^[_a-z][a-z0-9_]*$.(˜—“¤ùÿÿÿÿ8ØÓ°É·,
-python:S117"`Rename this local variable "juniorQADeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ç¸×ùÿÿÿÿ8ØÓ°É·,
 xpython:S117"\Rename this local variable "techDevCost" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÄïŒò8ğ—¸ù·,
-zpython:S117"^Rename this local variable "projectBudget" to match the regular expression ^[_a-z][a-z0-9_]*$.(‚ìÒû8ØÓ°É·,
+spython:S116"RRename this field "techQACost" to match the regular expression ^[_a-z][_a-z0-9]*$.(íÄï™ùÿÿÿÿ8¨Œ¡¸,
+zpython:S117"^Rename this local variable "projectPoints" to match the regular expression ^[_a-z][a-z0-9_]*$.(û©²–8ØÓ°É·,
+qpython:S116"URename this field "techQADeliver" to match the regular expression ^[_a-z][_a-z0-9]*$.(Œìİü8¨Œ¡¸,

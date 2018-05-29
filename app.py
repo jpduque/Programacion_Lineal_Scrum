@@ -1,11 +1,11 @@
 from flask import Flask, request, render_template, redirect, url_for
 from flask_bootstrap import Bootstrap
-
+from transaction import connection
 from optimization import opt
 import optimization
 
-class app:
 
+class app:
     seniorDevCost = ''
     techDevCost = ''
     juniorDevCost = ''
@@ -31,7 +31,10 @@ class app:
 
     @app.route('/')
     def hello_world():
-        return 'Hello World!'
+        # connection.queryData(2)
+
+        # return 'Hello World!'
+        return render_template('Home.html', data=connection.queryFullData())
 
     # Routing dev team costs
     @app.route('/DevTeamCost')
@@ -67,12 +70,10 @@ class app:
         internQACost = request.form['Qintern']
         return redirect(url_for('dev_points_build_up'))
 
-
     # Routing dev team deliverable
     @app.route('/SprintPointsDev')
     def dev_points_build_up():
         return render_template('SprintPointsDev.html')
-
 
     @app.route('/SprintPointsDev', methods=['POST'])
     def dev_points_build_up_post():
@@ -86,12 +87,10 @@ class app:
         internDevDeliver = request.form['PDintern']
         return redirect(url_for('qa_points_build_up'))
 
-
     # Routing qa team deliverable
     @app.route('/SprintPointsQA')
     def qa_points_build_up():
         return render_template('SprintPointsQA.html')
-
 
     @app.route('/SprintPointsQA', methods=['POST'])
     def qa_points_build_up_post():
@@ -105,12 +104,10 @@ class app:
         internQADeliver = request.form['PQintern']
         return redirect(url_for('project_points'))
 
-
     # Routing project deliverables
     @app.route('/ProjectPoints')
     def project_points():
         return render_template('ProjectPoints.html')
-
 
     @app.route('/ProjectPoints', methods=['POST'])
     def project_points_post():
@@ -120,32 +117,63 @@ class app:
         sprintPoints = request.form['PSprint']
         projectPoints = request.form['PProject']
         projectBudget = request.form['ProjectBudget']
-        print(sprintPoints, projectPoints)
         return redirect(url_for('project_optimal'))
-
 
     # Routing Optimization
     @app.route('/OptimalProject')
     def project_optimal():
         opt.model(seniorDevCost, techDevCost, juniorDevCost, internDevCost, seniorQACost, techQACost, juniorQACost,
-                           internQACost, seniorDevDeliver, techDevDeliver, juniorDevDeliver, internDevDeliver,
-                           seniorQADeliver, techQADeliver, juniorQADeliver, internQADeliver, sprintPoints, projectPoints,
-                           projectBudget)
+                  internQACost, seniorDevDeliver, techDevDeliver, juniorDevDeliver, internDevDeliver,
+                  seniorQADeliver, techQADeliver, juniorQADeliver, internQADeliver, sprintPoints, projectPoints,
+                  projectBudget)
 
-        if (optimization.lp1.status == 'optimal'):
+        if optimization.lp1.status == 'optimal':
+
+            connection.createData(seniorDevCost, techDevCost, juniorDevCost, internDevCost, seniorQACost, techQACost,
+                                  juniorQACost
+                                  , internQACost, seniorDevDeliver, techDevDeliver, juniorDevDeliver, internDevDeliver,
+                                  seniorQADeliver
+                                  , techQADeliver, juniorQADeliver, internQADeliver, round(optimization.x1.value[0]),
+                                  round(optimization.x2.value[0]),
+                                  round(optimization.x3.value[0]), round(optimization.x4.value[0]),
+                                  round(optimization.x5.value[0]), round(optimization.x6.value[0]),
+                                  round(optimization.x7.value[0]), round(optimization.x8.value[0])
+                                  , projectPoints
+                                  , sprintPoints)
+
             return render_template('Optimal.html', seniorDevCost=seniorDevCost, techDevCost=techDevCost,
+                                   juniorDevCost=juniorDevCost, internDevCost=internDevCost, seniorQACost=seniorQACost,
+                                   techQACost=techQACost, juniorQACost=juniorQACost, internQACost=internQACost,
+                                   seniorDevDeliver=seniorDevDeliver, techDevDeliver=techDevDeliver,
+                                   juniorDevDeliver=juniorDevDeliver, internDevDeliver=internDevDeliver,
+                                   seniorQADeliver=seniorQADeliver, techQADeliver=techQADeliver,
+                                   juniorQADeliver=juniorQADeliver, internQADeliver=internQADeliver,
+                                   x1=round(optimization.x1.value[0]), x2=round(optimization.x2.value[0]),
+                                   x3=round(optimization.x3.value[0]), x4=round(optimization.x4.value[0]),
+                                   x5=round(optimization.x5.value[0]), x6=round(optimization.x6.value[0]),
+                                   x7=round(optimization.x7.value[0]), x8=round(optimization.x8.value[0]),
+                                   sprints=round(int(projectPoints) / int(sprintPoints)))
+
+        return redirect(url_for('error'))
+
+    @app.route('/OptimalHistoryProject/<id>')
+    def project_optimal_history(id):
+        connection.queryData(id)
+
+
+        return render_template('Optimal.html', seniorDevCost=seniorDevCost, techDevCost=techDevCost,
                                juniorDevCost=juniorDevCost, internDevCost=internDevCost, seniorQACost=seniorQACost,
                                techQACost=techQACost, juniorQACost=juniorQACost, internQACost=internQACost,
                                seniorDevDeliver=seniorDevDeliver, techDevDeliver=techDevDeliver,
                                juniorDevDeliver=juniorDevDeliver, internDevDeliver=internDevDeliver,
                                seniorQADeliver=seniorQADeliver, techQADeliver=techQADeliver,
                                juniorQADeliver=juniorQADeliver, internQADeliver=internQADeliver,
-                               x1=round(optimization.x1.value[0]), x2=round(optimization.x2.value[0]),
-                               x3=round(optimization.x3.value[0]), x4=round(optimization.x4.value[0]),
-                               x5=round(optimization.x5.value[0]), x6=round(optimization.x6.value[0]),
-                               x7=round(optimization.x7.value[0]), x8=round(optimization.x8.value[0]),
+                               x1=optimization.x1, x2=optimization.x2,
+                               x3=optimization.x3, x4=optimization.x4,
+                               x5=optimization.x5, x6=optimization.x6,
+                               x7=optimization.x7, x8=optimization.x8,
                                sprints=round(int(projectPoints) / int(sprintPoints)))
-        return redirect(url_for('error'))
+
 
     # Routing project deliverables
     @app.route('/Error')

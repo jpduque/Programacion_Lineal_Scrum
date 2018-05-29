@@ -1,28 +1,3 @@
-<!--<!DOCTYPE html>-->
-<!--<html lang="en">-->
-<!--<head>-->
-    <!--<meta charset="UTF-8">-->
-    <!--<title>Puntos de entrega en el proyecto Calidad</title>-->
-<!--</head>-->
-<!--<body>-->
-
-<!--<div>Puntos de entrega en el proyecto Calidad</div>-->
-
-<!--<form method="post">-->
-    <!--<p>Puntos entregados por Tester Senior</p>-->
-    <!--<input name="PQsenior" type="number" min="0" required/>-->
-    <!--<p>Puntos entregados por Tester Tecnico</p>-->
-    <!--<input name="PQstandard" type="number" min="0" required/>-->
-    <!--<p>Puntos entregados por Tester Junior</p>-->
-    <!--<input name="PQjunior" type="number" min="0" required/>-->
-    <!--<p>Puntos entregados por Tester Pasante</p>-->
-    <!--<input name="PQintern" type="number" min="0" required/>-->
-    <!--<br>-->
-    <!--<input type="submit" value="Siguiente">-->
-<!--</form>-->
-<!--</body>-->
-<!--</html>-->
-
 <!DOCTYPE html>
 <html lang="en">
 {% extends "bootstrap/base.html" %}
@@ -39,6 +14,12 @@
 {% endblock %}
 {% block body %}
 {% block content %}
+<nav class="navbar navbar-dark bg-dark">
+    <form class="form-inline">
+        <button class="btn btn-outline-success" type="button" onclick="window.location='/';">Inicio</button>
+        <button class="btn btn-sm btn-outline-secondary" type="button" onclick="window.history.back();">Volver</button>
+    </form>
+</nav>
 <div class="container">
     <div class="py-5 text-center">
         <h2>Puntos entregados por del Equipo de Calidad</h2>
