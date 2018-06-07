@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d64753ad-62bb-4913-96b0-2d342309a5a9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/2/028a1dd2428c05858ee98d13f6aa500655524de7" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/3/13cce7fd076299c81b4986166f3d822791c9490e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/3/13cce7fd076299c81b4986166f3d822791c9490e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/a/1a1bcc8d7501d343f874d45fa35b14909cae3499" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/54b002e59a756bd4fa82479d1c6632a5b75f20a3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/7b8a7977df8689047bd5d6174979359fa976df1a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/7b8a7977df8689047bd5d6174979359fa976df1a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c1166b1cd8fc2a2478418b02b026d2db5f7ae9d3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class Diagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/Class Diagram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/Optimal.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Optimal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/ProjectPoints.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/ProjectPoints.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/SprintPointsDev.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/SprintPointsDev.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/SprintPointsQA.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/SprintPointsQA.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/TeamCostDev.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/TeamCostDev.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/TeamCostQA.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/TeamCostQA.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/UnOptimal.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/UnOptimal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/optimization.py" beforeDir="false" afterPath="$PROJECT_DIR$/optimization.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +18,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/operaciones$app.coverage" NAME="app Coverage Results" MODIFIED="1526929593426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/operaciones$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1527634845321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/operaciones$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1528251037043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/operaciones$temp.coverage" NAME="temp Coverage Results" MODIFIED="1526429906818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/operaciones$operaciones.coverage" NAME="operaciones Coverage Results" MODIFIED="1526929265320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/operaciones$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1526416335321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
@@ -51,98 +39,84 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Optimal.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/Optimal.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2246">
-              <caret line="6" column="96" selection-start-line="6" selection-start-column="96" selection-end-line="6" selection-end-column="96" />
+      <file leaf-file-name="Python/#/Users/jduque/Documents/projects/u/operaciones" pinned="false" current-in-tab="false">
+        <entry file="uml://Python/#/Users/jduque/Documents/projects/u/operaciones">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>Python</ID>
+              <OriginalElement>#/Users/jduque/Documents/projects/u/operaciones</OriginalElement>
+              <nodes>
+                <node x="2296.0" y="543.0">app.app</node>
+                <node x="2543.0" y="906.5">optimization.opt</node>
+                <node x="0.0" y="884.5">transaction.connection</node>
+                <node x="2263.0" y="0.0">object</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="app.app" target="object">
+                  <point x="0.0" y="-389.5" />
+                  <point x="0.0" y="246.5" />
+                </edge>
+                <edge source="optimization.opt" target="object">
+                  <point x="0.0" y="-26.0" />
+                  <point x="3566.0" y="518.0" />
+                  <point x="2507.166666666667" y="518.0" />
+                  <point x="97.66666666666674" y="246.5" />
+                </edge>
+                <edge source="transaction.connection" target="object">
+                  <point x="0.0" y="-48.0" />
+                  <point x="1138.0" y="518.0" />
+                  <point x="2311.833333333333" y="518.0" />
+                  <point x="-97.66666666666674" y="246.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.9" x="-201.77777777777777" y="85.55555555555554" />
+              <SelectedNodes>
+                <node>transaction.connection</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Inner Classes</Category>
+                <Category>Methods</Category>
+              </Categories>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProjectPoints.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/ProjectPoints.html">
+      <file leaf-file-name="optimization.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/optimization.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="19" column="119" selection-start-line="19" selection-start-column="119" selection-end-line="19" selection-end-column="119" />
+            <state relative-caret-position="585">
+              <caret line="39" column="16" lean-forward="true" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SprintPointsQA.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/SprintPointsQA.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="119" selection-start-line="19" selection-start-column="119" selection-end-line="19" selection-end-column="119" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TeamCostDev.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/TeamCostDev.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SprintPointsDev.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/SprintPointsDev.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="119" selection-start-line="19" selection-start-column="119" selection-end-line="19" selection-end-column="119" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TeamCostQA.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/TeamCostQA.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="119" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="transaction.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/transaction.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="101" column="8" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UnOptimal.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/UnOptimal.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="119" column="8" selection-start-line="119" selection-start-column="8" selection-end-line="119" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#68#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/Home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
+      <file leaf-file-name="MODULES/mdl-operaciones" pinned="false" current-in-tab="false">
+        <entry file="uml://MODULES/mdl-operaciones">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>MODULES</ID>
+              <OriginalElement>mdl-operaciones</OriginalElement>
+              <nodes>
+                <node x="0.0" y="80.0">lib-jquery-3.2.1.slim</node>
+                <node x="12.0" y="0.0">mdl-operaciones</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="mdl-operaciones" target="lib-jquery-3.2.1.slim">
+                  <point x="0.0" y="15.0" />
+                  <point x="0.0" y="-15.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-330.0" y="-205.0" />
+              <SelectedNodes>
+                <node>mdl-operaciones</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Libraries</Category>
+                <Category>Test dependencies</Category>
+              </Categories>
             </state>
           </provider>
         </entry>
@@ -194,7 +168,6 @@
         <option value="$PROJECT_DIR$/temp.py" />
         <option value="$PROJECT_DIR$/form/Forms.py" />
         <option value="$PROJECT_DIR$/__init__.py" />
-        <option value="$PROJECT_DIR$/optimization.py" />
         <option value="$PROJECT_DIR$/templates/Home.html" />
         <option value="$PROJECT_DIR$/templates/TeamCostDev.html" />
         <option value="$PROJECT_DIR$/templates/TeamCostQA.html" />
@@ -205,6 +178,7 @@
         <option value="$PROJECT_DIR$/templates/Optimal.html" />
         <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/transaction.py" />
+        <option value="$PROJECT_DIR$/optimization.py" />
       </list>
     </option>
   </component>
@@ -214,9 +188,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1680" />
-    <option name="height" value="1050" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -234,15 +209,20 @@
             <path>
               <item name="operaciones" type="b2602c69:ProjectViewProjectNode" />
               <item name="operaciones" type="462c0819:PsiDirectoryNode" />
+              <item name="Modelos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="operaciones" type="b2602c69:ProjectViewProjectNode" />
+              <item name="operaciones" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -460,12 +440,14 @@
       <workItem from="1526867007761" duration="1000" />
       <workItem from="1526928169903" duration="3390000" />
       <workItem from="1527459111731" duration="6034000" />
-      <workItem from="1527610345704" duration="9513000" />
+      <workItem from="1527610345704" duration="10037000" />
+      <workItem from="1528240187691" duration="2467000" />
+      <workItem from="1528323002414" duration="1978000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51045000" />
+    <option name="totallyTimeSpent" value="56014000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -477,8 +459,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32923076" />
@@ -493,16 +474,15 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32923076" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1990232" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23891273" />
       <window_info anchor="bottom" id="SonarLint" order="10" />
       <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32923076" />
       <window_info anchor="right" id="SciView" order="6" sideWeight="0.49847096" weight="0.32904148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4625641" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4625641" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Dependency Viewer" order="10" weight="0.32923076" />
       <window_info anchor="bottom" id="Messages" order="12" />
@@ -512,6 +492,7 @@
       <window_info anchor="right" x="0" y="0" width="370" height="850" id="Documentation" order="9" sideWeight="0.50152904" side_tool="true" weight="0.32967034" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32923076" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -522,6 +503,9 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -529,7 +513,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="64" />
+      <option name="time" value="67" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -582,6 +566,23 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="119" column="8" selection-start-line="119" selection-start-column="8" selection-end-line="119" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/optimization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/TeamCostDev.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
@@ -820,97 +821,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://Python/#/Users/jduque/Documents/projects/u/operaciones">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>Python</ID>
-          <OriginalElement>#/Users/jduque/Documents/projects/u/operaciones</OriginalElement>
-          <nodes>
-            <node x="" y="">app.app</node>
-            <node x="" y="">optimization.opt</node>
-            <node x="" y="">object</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.6008192990441511" x="1089.0" y="824.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Methods</Category>
-            <Category>Inner Classes</Category>
-            <Category>Fields</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JavaScript-modules-diagram//Users/jduque/Documents/projects/u/operaciones">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JavaScript-modules-diagram</ID>
-          <OriginalElement>$PROJECT_DIR$</OriginalElement>
-          <nodes>
-            <node x="" y="">$PROJECT_DIR$/templates/Optimal.html</node>
-            <node x="" y="">$PROJECT_DIR$/templates/ProjectPoints.html</node>
-            <node x="" y="">$PROJECT_DIR$/templates/SprintPointsDev.html</node>
-            <node x="" y="">$PROJECT_DIR$/templates/SprintPointsQA.html</node>
-            <node x="" y="">$PROJECT_DIR$/templates/TeamCostDev.html</node>
-            <node x="" y="">$PROJECT_DIR$/templates/TeamCostQA.html</node>
-            <node x="" y="">https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css</node>
-            <node x="" y="">https://getbootstrap.com/docs/4.0/examples/pricing/pricing.css</node>
-            <node x="" y="">https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="359.0" y="213.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>All</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>Details</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MODULES/mdl-operaciones">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MODULES</ID>
-          <OriginalElement>mdl-operaciones</OriginalElement>
-          <nodes>
-            <node x="" y="">lib-jquery-3.2.1.slim</node>
-            <node x="" y="">mdl-operaciones</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="94.0" y="55.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Libraries</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dependency Diagram.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Class Diagram.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/optimization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="51" column="46" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -930,7 +844,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/ProjectPoints.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
+        <state relative-caret-position="285">
           <caret line="19" column="119" selection-start-line="19" selection-start-column="119" selection-end-line="19" selection-end-column="119" />
         </state>
       </provider>
@@ -942,16 +856,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/SprintPointsQA.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="119" selection-start-line="19" selection-start-column="119" selection-end-line="19" selection-end-column="119" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/UnOptimal.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
+        <state relative-caret-position="855">
           <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
         </state>
       </provider>
@@ -965,42 +872,213 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/Optimal.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2246">
+        <state relative-caret-position="90">
           <caret line="6" column="96" selection-start-line="6" selection-start-column="96" selection-end-line="6" selection-end-column="96" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/TeamCostQA.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/TeamCostDev.html">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="119" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="119" column="8" selection-start-line="119" selection-start-column="8" selection-end-line="119" selection-end-column="8" />
+        <state relative-caret-position="82">
+          <caret line="124" column="15" selection-start-line="124" selection-start-column="15" selection-end-line="124" selection-end-column="15" />
           <folding>
             <element signature="e#0#68#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="uml://JavaScript-modules-diagram//Users/jduque/Documents/projects/u/operaciones">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$</OriginalElement>
+          <nodes>
+            <node x="35.0" y="431.0">$PROJECT_DIR$/templates/Home.html</node>
+            <node x="-225.0" y="227.0">$PROJECT_DIR$/templates/Optimal.html</node>
+            <node x="207.0" y="0.0">$PROJECT_DIR$/templates/ProjectPoints.html</node>
+            <node x="42.0" y="69.0">$PROJECT_DIR$/templates/SprintPointsDev.html</node>
+            <node x="449.0" y="257.0">$PROJECT_DIR$/templates/SprintPointsQA.html</node>
+            <node x="452.0" y="93.0">$PROJECT_DIR$/templates/TeamCostDev.html</node>
+            <node x="392.0" y="417.0">$PROJECT_DIR$/templates/TeamCostQA.html</node>
+            <node x="296.0" y="533.0">$PROJECT_DIR$/templates/UnOptimal.html</node>
+            <node x="45.0" y="299.0">https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css</node>
+            <node x="-188.0" y="528.0">https://getbootstrap.com/docs/4.0/examples/pricing/pricing.css</node>
+            <node x="296.0" y="251.0">https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="$PROJECT_DIR$/templates/Home.html" target="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/templates/ProjectPoints.html" target="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/templates/UnOptimal.html" target="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/templates/Home.html" target="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/templates/Optimal.html" target="https://getbootstrap.com/docs/4.0/examples/pricing/pricing.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/templates/UnOptimal.html" target="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/templates/Optimal.html" target="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/templates/UnOptimal.html" target="https://getbootstrap.com/docs/4.0/examples/pricing/pricing.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/templates/TeamCostQA.html" target="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/templates/TeamCostDev.html" target="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/templates/Optimal.html" target="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/templates/SprintPointsDev.html" target="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/templates/SprintPointsQA.html" target="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/templates/Home.html" target="https://getbootstrap.com/docs/4.0/examples/pricing/pricing.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-76.5" y="53.5" />
+          <SelectedNodes>
+            <node>$PROJECT_DIR$/templates/Optimal.html</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/SprintPointsQA.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="119" selection-start-line="19" selection-start-column="119" selection-end-line="19" selection-end-column="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/TeamCostDev.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/transaction.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="101" column="8" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="8" />
+        <state relative-caret-position="105">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#/Users/jduque/Documents/projects/u/operaciones">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#/Users/jduque/Documents/projects/u/operaciones</OriginalElement>
+          <nodes>
+            <node x="2296.0" y="543.0">app.app</node>
+            <node x="2543.0" y="906.5">optimization.opt</node>
+            <node x="0.0" y="884.5">transaction.connection</node>
+            <node x="2263.0" y="0.0">object</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="app.app" target="object">
+              <point x="0.0" y="-389.5" />
+              <point x="0.0" y="246.5" />
+            </edge>
+            <edge source="optimization.opt" target="object">
+              <point x="0.0" y="-26.0" />
+              <point x="3566.0" y="518.0" />
+              <point x="2507.166666666667" y="518.0" />
+              <point x="97.66666666666674" y="246.5" />
+            </edge>
+            <edge source="transaction.connection" target="object">
+              <point x="0.0" y="-48.0" />
+              <point x="1138.0" y="518.0" />
+              <point x="2311.833333333333" y="518.0" />
+              <point x="-97.66666666666674" y="246.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.9" x="-201.77777777777777" y="85.55555555555554" />
+          <SelectedNodes>
+            <node>transaction.connection</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+            <Category>Methods</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MODULES/mdl-operaciones">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement>mdl-operaciones</OriginalElement>
+          <nodes>
+            <node x="0.0" y="80.0">lib-jquery-3.2.1.slim</node>
+            <node x="12.0" y="0.0">mdl-operaciones</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="mdl-operaciones" target="lib-jquery-3.2.1.slim">
+              <point x="0.0" y="15.0" />
+              <point x="0.0" y="-15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-330.0" y="-205.0" />
+          <SelectedNodes>
+            <node>mdl-operaciones</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Libraries</Category>
+            <Category>Test dependencies</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/optimization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="16" lean-forward="true" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="16" />
         </state>
       </provider>
     </entry>

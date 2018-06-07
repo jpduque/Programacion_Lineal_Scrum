@@ -25,14 +25,14 @@ class opt:
         global x8
         global lp1
         c1 = (int(seniorDevDeliver) * x1 + int(techDevDeliver) * x2 + int(juniorDevDeliver) * x3 + int(
-            internDevDeliver) * x4 + int(seniorQADeliver) * x5 + int(techQADeliver) * x6 + int(
-            juniorQADeliver) * x7 + int(internQADeliver) * x8 >= int(sprintPoints))
+            internDevDeliver) * x4 + int(seniorQADeliver) * x5 + int(techQADeliver) * x6 +
+            int(juniorQADeliver) * x7 + int(internQADeliver) * x8 >= int(sprintPoints))
         c2 = ((int(seniorDevDeliver) * x1 + int(techDevDeliver) * x2 + int(juniorDevDeliver) * x3 + int(
             internDevDeliver) * x4 + int(seniorQADeliver) * x5 + int(techQADeliver) * x6 + int(
             juniorQADeliver) * x7 + int(internQADeliver) * x8) / int(sprintPoints) <= int(projectPoints))
         c3 = (x1 + x2 + x3 + x4 >= 1)
         c4 = (x5 + x6 + x7 + x8 >= 1)
-        c5 = (3 * (x1 + x2 + x3 + x4) <= (x5 + x6 + x7 + x8))
+        c5 = (x1 + x2 + x3 +x4 >= x5 + x6 + x7 + x8)
         c6 = ((int(seniorDevCost) * x1 + int(techDevCost) * x2 + int(juniorDevCost) * x3 + int(
             internDevCost) * x4 + int(seniorQACost) * x5 + int(techQACost) * x6 + int(juniorQACost) * x7 + int(
             internQACost) * x8) * (int(projectPoints) / int(sprintPoints)) == int(projectBudget))

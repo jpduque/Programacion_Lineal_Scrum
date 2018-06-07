@@ -1,0 +1,51 @@
+
+upython:S117"YRename this parameter "techQADeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÖµÜ¸8öÃÚåº,
+zpython:S117"YRename this parameter "juniorDevCost" to match the regular expression ^[_a-z][a-z0-9_]*$.(«º—Çúÿÿÿÿ8öÃÚåº,
+tpython:S117"XRename this parameter "internQACost" to match the regular expression ^[_a-z][a-z0-9_]*$.(¯¶¢ª8öÃÚåº,
+xpython:S117"\Rename this parameter "seniorDevDeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(¯¶¢ª8öÃÚåº,
+opython:S107"NMethod "createData" has 26 parameters, which is greater than the 7 authorized.(«º—Çúÿÿÿÿ8öÃÚåº,
+}python:S117"aRename this local variable "seniorDevDeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(×µõÃ8öÃÚåº,
+ypython:S117"XRename this parameter "juniorQACost" to match the regular expression ^[_a-z][a-z0-9_]*$.(«º—Çúÿÿÿÿ8öÃÚåº,
+~python:S117"]Rename this local variable "sprintPoints" to match the regular expression ^[_a-z][a-z0-9_]*$.(´ìŒ÷üÿÿÿÿ8À‚‰îº,
+;python:S125"Remove this commented out code.(üÚë8öÃÚåº,
+xpython:S117"WRename this parameter "techDevCost" to match the regular expression ^[_a-z][a-z0-9_]*$.(«º—Çúÿÿÿÿ8öÃÚåº,
+upython:S117"YRename this parameter "projectPoints" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÖµÜ¸8öÃÚåº,
+wpython:S117"VRename this parameter "techQACost" to match the regular expression ^[_a-z][a-z0-9_]*$.(«º—Çúÿÿÿÿ8öÃÚåº,
+zpython:S117"YRename this parameter "seniorDevCost" to match the regular expression ^[_a-z][a-z0-9_]*$.(«º—Çúÿÿÿÿ8öÃÚåº,
+ypython:S117"^Rename this local variable "juniorDevCost" to match the regular expression ^[_a-z][a-z0-9_]*$.(†¨ôU8öÃÚåº,
+vpython:S117"[Rename this local variable "techQACost" to match the regular expression ^[_a-z][a-z0-9_]*$.(†¨ôU8öÃÚåº,
+tpython:S117"XRename this parameter "sprintPoints" to match the regular expression ^[_a-z][a-z0-9_]*$.(ƒ ãç8öÃÚåº,
+ypython:S117"^Rename this local variable "seniorDevCost" to match the regular expression ^[_a-z][a-z0-9_]*$.(†¨ôU8öÃÚåº,
+wpython:S117"[Rename this parameter "juniorQADeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÖµÜ¸8öÃÚåº,
+ypython:S117"XRename this parameter "seniorQACost" to match the regular expression ^[_a-z][a-z0-9_]*$.(«º—Çúÿÿÿÿ8öÃÚåº,
+}python:S117"aRename this local variable "juniorDevDeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(×µõÃ8öÃÚåº,
+python:S117"^Rename this local variable "techQADeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(ô»½åøÿÿÿÿ8öÃÚåº,
+ypython:S117"^Rename this local variable "internDevCost" to match the regular expression ^[_a-z][a-z0-9_]*$.(†¨ôU8öÃÚåº,
+‚python:S117"aRename this local variable "internDevDeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(ô»½åøÿÿÿÿ8öÃÚåº,
+;python:S125"Remove this commented out code.(üÚë8òß®æº,
+zpython:S117"YRename this parameter "internDevCost" to match the regular expression ^[_a-z][a-z0-9_]*$.(«º—Çúÿÿÿÿ8öÃÚåº,
+vpython:S117"ZRename this parameter "techDevDeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(¯¶¢ª8öÃÚåº,
+rpython:S100"QRename method "createData" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(«º—Çúÿÿÿÿ8öÃÚåº,
+python:S117"`Rename this local variable "seniorQADeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(ô»½åøÿÿÿÿ8öÃÚåº,
+Kpython:S1313".Make this IP "127.0.0.1" address configurable.(ŞÕ´¢8öÃÚåº,
+xpython:S117"]Rename this local variable "juniorQACost" to match the regular expression ^[_a-z][a-z0-9_]*$.(†¨ôU8öÃÚåº,
+xpython:S117"\Rename this parameter "internDevDeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(¯¶¢ª8öÃÚåº,
+xpython:S117"\Rename this parameter "juniorDevDeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(¯¶¢ª8öÃÚåº,
+~python:S117"]Rename this local variable "internQACost" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ê…şÿÿÿÿ8öÃÚåº,
+zpython:S117"^Rename this local variable "dateSubmitted" to match the regular expression ^[_a-z][a-z0-9_]*$.(ñŒå—8öÃÚåº,
+wpython:S117"\Rename this local variable "techDevCost" to match the regular expression ^[_a-z][a-z0-9_]*$.(†¨ôU8öÃÚåº,
+ppython:S101"ORename class "connection" to match the regular expression ^[A-Z_][a-zA-Z0-9]+$.( ûÿÿÿÿÿ8öÃÚåº,
+upython:S100"TRename method "queryFullData" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(¾®úÿÿÿÿ8„¯¯æº,
+qpython:S100"PRename method "queryData" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(·¡¾Èùÿÿÿÿ8öÃÚåº,
+python:S117"`Rename this local variable "internQADeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(ô»½åøÿÿÿÿ8öÃÚåº,
+xpython:S117"]Rename this local variable "seniorQACost" to match the regular expression ^[_a-z][a-z0-9_]*$.(†¨ôU8öÃÚåº,
+wpython:S117"[Rename this parameter "internQADeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÖµÜ¸8öÃÚåº,
+{python:S117"_Rename this local variable "techDevDeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(×µõÃ8öÃÚåº,
+Npython:S1481"1Remove the unused local variable "dateSubmitted".(ñŒå—8öÃÚåº,
+python:S117"`Rename this local variable "juniorQADeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(ô»½åøÿÿÿÿ8öÃÚåº,
+wpython:S117"[Rename this parameter "seniorQADeliver" to match the regular expression ^[_a-z][a-z0-9_]*$.(¯¶¢ª8öÃÚåº,
+;python:S125"Remove this commented out code.(üÚë8öÃÚåº,
+Kpython:S1313".Make this IP "127.0.0.1" address configurable.(ŞÕ´¢8öÃÚåº,
+;python:S125"Remove this commented out code.(¡€ªÕ8„¥‘îº,
+python:S117"^Rename this local variable "projectPoints" to match the regular expression ^[_a-z][a-z0-9_]*$.(´ìŒ÷üÿÿÿÿ8’ûîº,
+Kpython:S1313".Make this IP "127.0.0.1" address configurable.(ŞÕ´¢8òß®æº,
